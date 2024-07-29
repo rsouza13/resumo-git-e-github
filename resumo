@@ -1,0 +1,6 @@
+Git reset
+
+	-- mixed  (padrão) retorna para o estado anterior mantendo os arquivos fora do git
+	-- fixed  retorna para o estado anterior ao commit mantendo os arquivos adicionados para o comit 
+	-- hard   retorna para o estado anteior e excluir os arquivos da arvore 
+

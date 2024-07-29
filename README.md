@@ -1,4 +1,3 @@
-
 # Resumo Git e Git Hub
 
 Repositório para armazenar um resumo sobre o Git e GitHub
