@@ -1,15 +1,49 @@
-# Resumo para iniciar com o GIT
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
+    <span> Versionamento de Código com Git e GitHub</span>
+</h1>
 
-## Para criar um novo repositório local
-echo "# angular9" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin git@github.com:rsouza13/angular9.git
-git push -u origin master
+## Primeiros Passos com Git e GitHub
 
-## Subir um proijeto para um repositório exisitente
-git remote add origin git@github.com:rsouza13/angular9.git
-git branch -M master
-git push -u origin master
+### Criando e Clonando Repositórios
+Existem duas formas de obter um repositório Git na sua máquina:
+1. Transformando um diretório local que não está sob controle de versão, num repositório Git;
+2. Clonando um repositório Git existente.
+
+#### Criando um Repositório Local
+Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou clique no atalho em “Git Bash Here”:
+1. Inicialize um repositório Git no diretório escolhido:
+    ```bash
+    $ git init
+    ```
+2. Conecte o repositório local com o repositório remoto:
+    ```bash
+    $ git remote add origin https://github.com/username/nome-do-repositorio.git
+    ```
+##
+
+### Desfazendo Alterações no Repositório Local
+
+#### Como alterar a mensagem do último commit
+```bash
+$ git commit --amend
+```
+Alterando a mensagem sem abrir o editor:  
+```bash
+$ git commit --amend –m"nova mensagem"
+```
+
+#### Como desfazer um commit
+```bash
+$ git reset
+```
+```bash
+$ git reset --soft
+```
+```bash
+$ git reset --mixed
+```
+```bash
+$ git reset --hard
+```
